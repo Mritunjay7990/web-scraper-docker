@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+venv/
+
+# Data files
+*.json
+scraped_data.json
+
+# Environment files
+.env
+.DS_Store
