@@ -14,3 +14,6 @@ A Dockerized web scraper using:
 1. Build the image:
    ```bash
    docker build --build-arg SCRAPE_URL=https://example.com -t web-scraper .
+## 📝 Notes
+- Requires Docker 20.10+
+- First build may take 5-10 minutes (Chromium installation)
